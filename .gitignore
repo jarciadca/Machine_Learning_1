@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+# (opcional: excluir .vscode o dejarlo si quieres compartir settings)
+
+# Datos grandes / salidas
+*.csv
+*.xlsx
+*.parquet
+# (ajusta según tu proyecto)
+
+# Sistema
+.DS_Store
+Thumbs.db
